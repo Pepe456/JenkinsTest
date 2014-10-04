@@ -43,7 +43,6 @@ public class PrimeGeneratorTest {
 		List<Integer> result = Arrays.asList(2,2,2);
 		List<Integer> generate = PrimeGenerator.generate(input);
 		assertThat(generate, is(result));		
-		System.out.println(generate);
 	}
 	
 	
